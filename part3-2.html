@@ -1,213 +1,198 @@
-<!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Bootstrap 101 Template</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-		
-        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
-		
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		
-		<!-- Custom styles for this template -->
-		<link href="starter-template.css" rel="stylesheet">
-		
-		<style>
-			#myCarousel {
-				width: 40%;
-				height: 120px;
-				margin-left: auto;
-				margin-right: auto;
-				margin-top: auto;
-				margin-bottom: auto;
-				padding-top: 20px;
-				
-			}
-			
-			#myCarouselOuter {
-				height: 200px;
-			}
-			
-			.carousel-head {
-				font-size: 2em;
-			}
-			
-			.carousel-inner {
-				font-size: 1.5em;
-			}
-		</style>
-		
-		<!--<script src="jquery-1.7.2.min.js"></script>
-		
-		<link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
-		<link href="style.css" rel="stylesheet" type="text/css">-->
-		
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		  <div class="container">
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-			  <a class="navbar-brand" href="#">Project name</a>
-			</div>
-			<div class="collapse navbar-collapse">
-			  <ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
-			  </ul>
-			</div><!--/.nav-collapse -->
-		  </div>
-		</div>
-
-		<div class="container">
-
-		  <div class="starter-template">
-			<div class="content-area">
-				<div class="carousel-head">
-					<p>Swipe the outer carousel to scroll...</p>
-				</div>
-				<div id="myCarouselOuter" class="carousel slide">
-					<ol class="carousel-indicators">
-						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						<li data-target="#myCarousel" data-slide-to="1"></li>
-						<li data-target="#myCarousel" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner">
-						<div class="item active">
-						   <!--<img src="http://lorempixel.com/960/600">-->
-						   <div class="carousel-head">
-							<p>Or...</p>
-							</div>
-							<div id="myCarousel" class="carousel slide">
-								<ol class="carousel-indicators">
-									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-									<li data-target="#myCarousel" data-slide-to="1"></li>
-									<li data-target="#myCarousel" data-slide-to="2"></li>
-								</ol>
-								<div class="carousel-inner">
-									<div class="item active">
-									   <!--<img src="http://lorempixel.com/960/600">-->
-									   <p>... tap the inner carousel!</p>
-									 </div>
-									 <div class="item">
-									   <!--<img src="http://lorempixel.com/960/600">-->
-									   <p>Cool, huh?</p>
-								   </div>
-								   <div class="item">
-									   <!--<img src="http://lorempixel.com/960/600">-->
-									   <p>Not really, it's pretty useless</p>
-									</div>
-									<div class="item">
-									   <!--<img src="http://lorempixel.com/960/600">-->
-									   <p>But fun to make!</p>
-									</div>
-								</div>
-								
-								<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-									<span class="icon-prev"></span>
-								  </a>
-								  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-									<span class="icon-next"></span>
-								</a>
-							</div>
-						 </div>
-						 <div class="item">
-						   <!--<img src="http://lorempixel.com/960/600">-->
-						   <p>Placeholder</p>
-					   </div>
-					   <div class="item">
-						   <!--<img src="http://lorempixel.com/960/600">-->
-						   <p>Placeholder</p>
-						</div>
-					</div>
-					
-					<a class="left carousel-control" href="#myCarouselOuter" data-slide="prev">
-						<span class="icon-prev"></span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarouselOuter" data-slide="next">
-						<span class="icon-next"></span>
-					</a>
-				</div>
-			</div>
-		  </div>
-		</div>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		
-		<script src="js/hammer.min.js"></script>
-		<script src="jquery.hammer.js"></script>
-		<!--<script src="myLogic.js"></script>-->
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		
-		<script src="jquery.mobile.custom.min.js"></script>
-		<!--<script>  
-		$(document).ready(function() {  
-		   $("#myCarousel").swiperight(function() {  
-			  $("#myCarousel").carousel('prev');  
-			});  
-		   $("#myCarousel").swipeleft(function() {  
-			  $("#myCarousel").carousel('next');  
-		   });  
-		});  
-		</script>-->
-		
-		<script>  
-		$(document).ready(function() {  
-			$('#myCarouselOuter').hammer().on('swipeleft', function(){
-				$('#myCarouselOuter').carousel('next'); 
-			})
-			$('#myCarouselOuter').hammer().on('swiperight', function(){
-				$('#myCarouselOuter').carousel('prev'); 
-			})		
-		});  
-		</script>  
-		<script>  
-		$(document).ready(function() {  
-			$('#myCarousel').hammer().on('tap', function(){
-				$('#myCarousel').carousel('next'); 
-			})		
-		});  
-		</script> 
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>  
-		
-		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-    </body>
-</html>
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap 101 Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+		
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Custom styles for this template -->
+		<link href="starter-template.css" rel="stylesheet">
+		
+		<style>
+			#myCarousel, #myCarousel2, #myCarousel3 {
+				width: 40%;
+				height: 120px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: auto;
+				margin-bottom: auto;
+				padding-top: 20px;
+				font-size: 1.5em;
+			}
+			
+			#myCarouselOuter {
+				height: 200px;
+			}
+			
+			.carousel-head {
+				font-size: 2em;
+			}
+			
+			.carousel-inner {
+				<!--font-size: 1.5em;-->
+			}
+		</style>
+		
+		<!--<script src="jquery-1.7.2.min.js"></script>
+		
+		<link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">-->
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Project name</a>
+			</div>
+			<div class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
+		</div>
+
+		<div class="container">
+
+		  <div class="starter-template">
+			<div class="content-area">
+				<div class="carousel-head">
+					<p><b>Swipe the outer carousel to scroll...</b></p>
+				</div>
+				<div id="myCarouselOuter" class="carousel slide">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarouselOuter" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarouselOuter" data-slide-to="1"></li>
+						<li data-target="#myCarouselOuter" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+						   <!--<img src="http://lorempixel.com/960/600">-->
+						   <div class="carousel-head">
+							<p>Or...</p>
+							</div>
+							<div id="myCarousel" class="carousel slide">
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="item active">
+									   <!--<img src="http://lorempixel.com/960/600">-->
+									   <p>... tap the inner carousel!</p>
+									 </div>
+									 <div class="item">
+									   <!--<img src="http://lorempixel.com/960/600">-->
+									   <p>Cool, huh?</p>
+								   </div>
+								   <div class="item">
+									   <!--<img src="http://lorempixel.com/960/600">-->
+									   <p>Not really, it's pretty useless</p>
+									</div>
+								</div>
+								
+								<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+									<span class="icon-prev"></span>
+								  </a>
+								  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+									<span class="icon-next"></span>
+								</a>
+							</div>
+						 </div>
+						 <div class="item">
+						   <!--<img src="http://lorempixel.com/960/600">-->
+						   <div class="carousel-head">							<p>This page was made in...</p>							</div>							<div id="myCarousel2" class="carousel slide">								<ol class="carousel-indicators">									<li data-target="#myCarousel2" data-slide-to="0" class="active"></li>									<li data-target="#myCarousel2" data-slide-to="1"></li>									<li data-target="#myCarousel2" data-slide-to="2"></li>								</ol>								<div class="carousel-inner">									<div class="item active">									   <!--<img src="http://lorempixel.com/960/600">-->									   <p>... HTML5 boilerplate...</p>									 </div>									 <div class="item">									   <!--<img src="http://lorempixel.com/960/600">-->									   <p>... Bootstrap...</p>								   </div>								   <div class="item">									   <!--<img src="http://lorempixel.com/960/600">-->									   <p>... and Hammer.js</p>									</div>								</div>																<a class="left carousel-control" href="#myCarousel2" data-slide="prev">									<span class="icon-prev"></span>								  </a>								  <a class="right carousel-control" href="#myCarousel2" data-slide="next">									<span class="icon-next"></span>								</a>							</div>
+					   </div>
+					   <div class="item">
+						   <!--<img src="http://lorempixel.com/960/600">-->														<div class="carousel-head">							
+							<p>It's pretty glitchy...</p>														</div>						   						   <div id="myCarousel3" class="carousel slide">								<ol class="carousel-indicators">									<li data-target="#myCarousel3" data-slide-to="0" class="active"></li>									<li data-target="#myCarousel3" data-slide-to="1"></li>									<li data-target="#myCarousel3" data-slide-to="2"></li>								</ol>								<div class="carousel-inner">									<div class="item active">									   <!--<img src="http://lorempixel.com/960/600">-->									   <p>But that's what makes them cool</p>									 </div>									 <div class="item">									   <!--<img src="http://lorempixel.com/960/600">-->									   <p>(Refresh if you have to!)</p>								   </div>								   <div class="item">									   <!--<img src="http://lorempixel.com/960/600">-->									   <p>Nested carousels aren't supported</p>									</div>								</div>																<a class="left carousel-control" href="#myCarousel3" data-slide="prev">									<span class="icon-prev"></span>								  </a>								  <a class="right carousel-control" href="#myCarousel3" data-slide="next">									<span class="icon-next"></span>								</a>							</div>
+						</div>
+					</div>
+					
+					<a class="left carousel-control" href="#myCarouselOuter" data-slide="prev">
+						<span class="icon-prev"></span>
+					  </a>
+					  <a class="right carousel-control" href="#myCarouselOuter" data-slide="next">
+						<span class="icon-next"></span>
+					</a>
+				</div>
+			</div>
+		  </div>
+		</div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		
+		<script src="js/hammer.min.js"></script>
+		<script src="jquery.hammer.js"></script>
+		<!--<script src="myLogic.js"></script>-->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		
+		<script src="jquery.mobile.custom.min.js"></script>
+		<script>  
+		$(document).ready(function() {  
+			$('#myCarouselOuter').hammer().on('swipeleft', function(){
+				$('#myCarouselOuter').carousel('next'); 
+			})
+			$('#myCarouselOuter').hammer().on('swiperight', function(){
+				$('#myCarouselOuter').carousel('prev'); 
+			})				$('#myCarouselOuter3').hammer().on('swiperight', function(){				$('#myCarouselOuter3').carousel('prev'); 			})				
+		});  
+		</script> 				<!--<script>				$(document).ready(function() { 					$('.myCarousel').each(function(){							var $myCarousel = $(this);								$myCarousel.hammer().on('tap', function() {									$(this).carousel('next');								})			});				});				</script>-->
+		<script>  
+		$(document).ready(function() {  
+			$('#myCarousel').hammer().on('tap', function(){
+				$('#myCarousel').carousel('next'); 
+			})				$('#myCarousel2').hammer().on('tap', function(){				$('#myCarousel2').carousel('next'); 			})				
+		});  
+		</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>  
+		
+		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
